@@ -9,7 +9,9 @@ import psycopg2
 from psycopg2.extras import execute_values
 
 # Conectando ao banco de dados
-conn = ""
+connStr =  "" # insira aqui a string de conexão
+conn = psycopg2.connect(connStr)
+
 # Classes de valores aleatórios e dados de mapeamento
 class ValoresAleatorios:
     def id(self):
