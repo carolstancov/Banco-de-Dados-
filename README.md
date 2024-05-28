@@ -7,7 +7,7 @@ Gabrielly Pavan Húngaro Ferreira - 22.122.059-3
 ```
 git clone https://github.com/carolstancov/Banco-de-Dados-
 cd Banco-de-Dados-
-pip install -r requirements
+pip install -r requirements.txt
 python codigo.py
 ```
 
